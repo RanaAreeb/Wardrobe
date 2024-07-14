@@ -1,0 +1,27 @@
+body {
+    background-color: #303031; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center vertically */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #bfc9c5; /* Different color for the registration box */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
